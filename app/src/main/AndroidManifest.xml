@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Datphongtest">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.DatPhongActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -20,6 +20,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".helper.DatPhongHelper">
+
         </activity>
     </application>
 
